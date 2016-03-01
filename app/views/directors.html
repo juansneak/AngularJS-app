@@ -1,0 +1,27 @@
+<h3>Directores</h3>
+<hr>
+
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th>Nombre</th>
+			<th>Sexo</th>
+			<th>Nacionalidad</th>
+			<th>Ciudad</th>
+			<th>Fecha Nac</th>
+			<th>Edad</th>
+			<th>Blockbuster</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="director in directors">
+			<td><a ui-sref="app.detail({director.id})" href="#/director/{{director.id}}">{{director.name}}</a></td>
+			<td>{{director.sex}}</td>
+			<td>{{director.nationality}}</td>
+			<td>{{director.city}}</td>
+			<td>{{director.dob | date:'dd-MM-yyyy'}}</td>
+			<td>{{director.age}}</td>
+			<td>{{director.blockbuster}}</td>
+		</tr>
+	</tbody>
+</table>

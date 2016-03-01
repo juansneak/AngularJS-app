@@ -1,0 +1,27 @@
+{
+    "fullName": "David Lynch",
+    "image": "http://www.interviewmagazine.com/files/2012/01/08/img-david-lynch-01-_184117216071.jpg",
+    "sex": "Male",
+    "nationality": "United States",
+    "state": "Montana",
+    "city": "Missoula",
+    "dob": -755699867,
+    "age": 69,
+    "blockbusters": [
+        {
+            "movieName": "Blue Velvet",
+            "release": "1986"
+        },
+        {
+            "movieName": "Wild at Heart",
+            "release": "1990"
+        },
+        {
+            "movieName": "Mulholland Drive",
+            "release": "2001"
+        }
+    ],
+    "bio": "is an American director, screenwriter, visual artist, musician, actor, and author. Known for his surrealist films, he has developed a unique cinematic style. The surreal and, in many cases, violent elements contained within his films have been known to 'disturb, offend or mystify' audiences.",
+    "spouse": "Emily Stofle",
+    "children":
+}

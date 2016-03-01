@@ -1,0 +1,2 @@
+# ignore contents of bower_components
+/bower_components/*

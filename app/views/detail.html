@@ -1,0 +1,14 @@
+<h3>{{director.name}}</h3>
+<hr>
+
+<img src="{{director.image}}" style="height: 180px; width: 200px; display: block;" class="director_img">
+
+<p><label>Nombre:</label> {{director.name}}</p>
+<p><label>Sexo:</label> {{director.sex}}</p>
+<p><label>Nacionalidad:</label> {{director.nationality}}</p>
+<p><label>Ciudad:</label> {{director.city}}</p>
+<p><label>Fecha Nac:</label> {{director.dob  | date:'dd-MM-yyyy' }}</p>
+<p><label>Edad:</label> {{director.age}}</p>
+<p><label>Blockbuster:</label> {{director.blockbuster}}</p>
+
+<a ui-sref="app.directors" href="#/directors/"> <-- Volver</a>
