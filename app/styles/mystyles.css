@@ -19,3 +19,16 @@
 a.link {
 	cursor: pointer;
 }
+.flash-message {
+    display: none;
+    margin-bottom: 40px;
+    width: 100%;
+}
+.filter_box {
+    float: right;
+    width: 200px;
+    margin-bottom: 40px;
+}
+.progress-bar {
+    width: 100%;
+}

@@ -1,22 +1,22 @@
 'use strict';
 
-angular.module('belatrixApp')
+angular.module('AngularApp')
 
         .constant("baseURL","http://localhost:300")
 
-        .factory('directorsFactory', ['$resource', 'baseURL', function($resource,baseURL) {
+        .factory('itemsFactory', ['$resource', 'baseURL', function($resource,baseURL) {
     
-            var directors = {};
+            var items = {};
 
-            directors.getDirectors = function(){
-                return $resource(baseURL+"/db");
+            items.getItems = function(){
+                return $resource(baseURL+"/items");
             };
 
-            directors.getDirector = function (index) {
-                return $resource(baseURL+"/:id",null,  {'get':{method:'GET' }});
+            items.getItems_id = function(){
+                return $resource(baseURL+"/items/:id", null, {'update':{method:'PUT' }});
             };
 
-            return directors;
+            return items;
     
         }])     
 ;

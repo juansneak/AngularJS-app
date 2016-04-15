@@ -1,0 +1,50 @@
+<h3>New Item</h3>
+<hr>
+
+<div ng-show="loading" class="progress">
+  <div class="progress-bar progress-bar-success progress-bar-striped active">      
+      Loading, please wait...
+  </div>
+</div>
+
+<div class="flash-message alert">
+    <span>{{message}}</span>
+</div>
+
+<form class="form-horizontal" name="itemForm" ng-submit="addItem()" novalidate="">
+	<div class="form-group" ng-class="{ 'has-error' : itemForm.name.$error.required && !itemForm.name.$pristine }">
+        <label for="name" class="col-sm-2 control-label">Item</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter Item" required ng-model="newItem.name">
+         </div>
+    </div>
+
+    <div class="form-group" ng-class="{ 'has-error' : itemForm.type.$error.required && !itemForm.type.$pristine }">
+        <label for="type" class="col-sm-2 control-label">Type</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="type" name="type" placeholder="Enter Type" required ng-model="newItem.type">
+         </div>
+    </div>
+
+    <div class="form-group" ng-class="{ 'has-error' : itemForm.category.$error.required && !itemForm.category.$pristine }">
+        <label for="category" class="col-sm-2 control-label">Category</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="category" name="category" placeholder="Enter Category" required ng-model="newItem.category">
+         </div>
+    </div>
+
+    <div class="form-group" ng-class="{ 'has-error' : itemForm.description.$error.required && !itemForm.description.$pristine }">
+        <label for="description" class="col-sm-2 control-label">Description</label>
+        <div class="col-sm-10">
+            <textarea class="form-control" rows="12" id="description" name="description" ng-model="newItem.description" required></textarea>
+         </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" ng-disabled="itemForm.$invalid" class="btn btn-primary">Save</button>
+        </div>
+    </div>
+</form>
+
+<a class="btn btn-primary" ui-sref="app.items" href="#/items/">Back to List</a>

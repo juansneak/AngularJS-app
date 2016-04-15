@@ -1,15 +1,15 @@
 {
-  "name": "Directors",
+  "name": "AngularJS-app",
   "version": "1.0.0",
-  "description": "Belatrix test",
+  "description": "Simple CRUD with AngularJS",
   "main": "index.html",
   "moduleType": [],
   "keywords": [
-    "belatrix",
-    "Directors"
+    "AngularJS",
+    "CRUD"
   ],
   "authors": [
-    "Juan Morantes"
+    "Juan Carlos Morantes Taccetti"
   ],
   "license": "MIT",
   "homepage": "",
@@ -27,6 +27,7 @@
     "angular-route": "~1.4.8",
     "angular-ui-router": "~0.2.15",
     "angular-resource": "~1.4.8",
-    "angular-mocks": "~1.4.8"
+    "angular-mocks": "~1.4.8",
+    "jquery": "^2.2.3"
   }
 }

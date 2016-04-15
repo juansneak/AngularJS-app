@@ -1,2 +1,5 @@
 # ignore contents of bower_components
 /bower_components/*
+
+# ignore contents of node_modules
+/node_modules/*

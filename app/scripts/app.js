@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('belatrixApp', ['ui.router','ngResource'])
+angular.module('AngularApp', ['ui.router','ngResource','angularUtils.directives.dirPagination'])
 .config(function($stateProvider, $urlRouterProvider) {
         $stateProvider
         
@@ -20,22 +20,51 @@ angular.module('belatrixApp', ['ui.router','ngResource'])
 
             })
 
-            .state('app.directors', {
-                url: 'directors',
+            .state('app.settings', {
+                url: 'settings',
                 views: {
                     'content@': {
-                        templateUrl : 'views/directors.html',
-                        controller  : 'DirectorsController'
+                        templateUrl : 'views/settings.html',
+                   }
+                }
+            })
+
+            .state('app.items', {
+                url: 'items',
+                views: {
+                    'content@': {
+                        templateUrl : 'views/items.html',
+                        controller  : 'ItemsController'
+                   }
+                }
+            })
+
+            .state('app.new', {
+                url: 'items/new',
+                views: {
+                    'content@': {
+                        templateUrl : 'views/new.html',
+                        controller  : 'NewItemController'
+                   }
+                }
+            })
+
+            .state('app.edit', {
+                url: 'item/:id/edit',
+                views: {
+                    'content@': {
+                        templateUrl : 'views/edit.html',
+                        controller  : 'EditItemController'
                    }
                 }
             })
 
             .state('app.detail', {
-                url: 'director/:id',
+                url: 'item/:id',
                 views: {
                     'content@': {
                         templateUrl : 'views/detail.html',
-                        controller  : 'DetailController'
+                        controller  : 'ViewItemController'
                    }
                 }
             });

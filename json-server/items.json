@@ -1,0 +1,92 @@
+{
+  "items": [
+    {
+      "id": 22,
+      "name": "Appetite For Destruction",
+      "type": "LP",
+      "category": "Hard Rock",
+      "description": "Appetite for Destruction is the debut studio album by American hard rock band Guns N' Roses",
+      "date": "2016-04-11T02:02:31.722Z"
+    },
+    {
+      "id": 23,
+      "name": "Yellow Submarine",
+      "type": "LP",
+      "category": "Classic Rock",
+      "description": "Yellow Submarine is the tenth studio album by the English rock band the Beatles",
+      "date": "2016-04-11T02:03:52.705Z"
+    },
+    {
+      "id": 24,
+      "name": "Space Oddity",
+      "type": "LP",
+      "category": "Progressive Rock",
+      "description": "Description goes here",
+      "date": "2016-04-11T02:06:54.877Z"
+    },
+    {
+      "id": 25,
+      "name": "Nevermind",
+      "type": "LP",
+      "category": "Grunge",
+      "description": "Nevermind is the second studio album by the American rock band Nirvana",
+      "date": "2016-04-11T02:08:36.667Z"
+    },
+    {
+      "id": 26,
+      "name": "Thriller",
+      "type": "LP",
+      "category": "POP",
+      "description": "Thriller is the sixth studio album by American singer Michael Jackson. It was released by Epic Records on November 30, 1982",
+      "date": "2016-04-11T02:09:12.035Z"
+    },
+    {
+      "id": 27,
+      "name": "Aenima",
+      "type": "LP",
+      "category": "Progressive Rock",
+      "description": "Aenima is the third studio album by American rock band Tool. It was released in vinyl format on September 17, 1996, and in compact disc format on October 1, 1996",
+      "date": "2016-04-11T02:11:33.342Z"
+    },
+    {
+      "id": 28,
+      "name": "The Winery Dogs",
+      "type": "LP",
+      "category": "Hard Rock",
+      "description": "The Winery Dogs is the debut album by the American hard rock supergroup of the same name.",
+      "date": "2016-04-11T02:12:22.172Z"
+    },
+    {
+      "id": 29,
+      "name": "The Number of the Beast",
+      "type": "LP",
+      "category": "Heavy Metal",
+      "description": "The Number of the Beast is the third studio album by the English heavy metal band Iron Maiden",
+      "date": "2016-04-11T02:13:27.595Z"
+    },
+    {
+      "id": 30,
+      "name": "Ímagine",
+      "type": "LP",
+      "category": "Classic Rock",
+      "description": "Imagine is the second studio album by John Lennon. Recorded and released in 1971, the album is more heavily produced in contrast to the basic, raw arrangements of his previous album, the critically acclaimed John Lennon/Plastic Ono Band",
+      "date": "2016-04-11T02:15:33.962Z"
+    },
+    {
+      "id": 31,
+      "name": "The Colour and the Shape",
+      "type": "LP",
+      "category": "Alternative",
+      "description": "The Colour and the Shape is the second studio album by American rock band Foo Fighters. Produced by Gil Norton, it was released through Capitol Records and the group's own Roswell Records on May 20, 1997",
+      "date": "2016-04-11T02:16:07.179Z"
+    },
+    {
+      "id": 32,
+      "name": "Their Satanic Majesties Request",
+      "type": "LP",
+      "category": "Rock",
+      "description": "Their Satanic Majesties Request is the sixth British and eighth American studio album by the Rolling Stones, released on 8 December 1967 by Decca Records in the United Kingdom and the following day in the United States by London Records",
+      "date": "2016-04-11T02:17:10.846Z"
+    }
+  ]
+}

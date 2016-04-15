@@ -1,0 +1,41 @@
+<h3>Albums</h3>
+<hr>
+
+<div ng-show="loading" class="progress">
+  <div class="progress-bar progress-bar-success progress-bar-striped active">      
+      Loading, please wait...
+  </div>
+</div>
+
+<div class="flash-message alert">
+    <span>{{message}}</span>
+</div>
+
+<div class="filter_box">
+	<input type="text" name="filter" id="filter" ng-model="filter_parameter" class="form-control" placeholder="Filter">
+</div>
+
+<a class="btn btn-primary" ui-sref="app.new" href="#/items/new">+ Add New</a>
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th>Item</th>
+			<th>Type</th>
+			<th>Category</th>
+			<th>Actions</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr dir-paginate="item in items | filter:filter_parameter | orderBy : 'name' | itemsPerPage: 5">
+			<td><a ui-sref="app.detail({item.id})" href="#/item/{{item.id}}">{{item.name}}</a></td>
+			<td>{{item.type}}</td>
+			<td>{{item.category}}</td>
+			<td>
+				<a ui-sref="app.detail({item.id})" href="#/item/{{item.id}}" class="btn btn-primary">View</a>
+				<a ng-click="deleteItem(item)" class="btn btn-danger">Delete</a>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<dir-pagination-controls></dir-pagination-controls>
