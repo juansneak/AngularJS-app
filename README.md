@@ -1,4 +1,23 @@
+<h3>Introduction</h3>
+<hr>
+
+<p>This is a basic CRUD in AngularJS</p>
+<p>Where you will find the following features/technologies:</p>
+
+<ul>
+	<li>Single Page Application</li>
+	<li>Bootstrap Framework</li>
+	<li>Pagination</li>
+	<li>Filtering</li>
+	<li>Form Validation</li>
+	<li>Data retrieval from REST API (json-server)</li>
+	<li>Http-server in NodeJS</li>
+	<li>ngResource, UI Router</li>
+</ul>
+
+
 <h3>Installation</h3>
+<hr>
 
 1) Install nodeJs
 
