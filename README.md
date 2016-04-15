@@ -1,5 +1,4 @@
-<h3>Introduction</h3>
-<hr>
+## Description
 
 <p>This is a basic CRUD in AngularJS</p>
 <p>Where you will find the following features/technologies:</p>
@@ -15,9 +14,7 @@
 	<li>ngResource, UI Router</li>
 </ul>
 
-
-<h3>Installation</h3>
-<hr>
+## Installation
 
 1) Install nodeJs
 
